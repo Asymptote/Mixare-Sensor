@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mixare</string>
+    <string name="search_hint">Suche Ort</string>
+    
+    <string name="N">N</string>
+    <string name="NE">NO</string>
+    <string name="E">O</string>
+    <string name="SE">SO</string>
+    <string name="S">S</string>
+    <string name="SW">SW</string>
+    <string name="W">W</string>
+    <string name="NW">NW</string>
+    
+
+    <string name="empty_list">Es tut uns leid, \nFür das Gebiet in diesem Umkreis \nwurden keine Informationen gefunden.
+    \nBitte probieren Sie es mit einem etwas \ngrößerem Radius.</string>
+	<string name="option_not_available">Es tut uns leid, wir arbeiten daran…
+		\nDiese Option wird Ihnen schon bald \nzur Verfügung stehen!</string>
+	
+	<string name="license"><![CDATA[Copyright © 2010-2013 Peer internet solutions
+		\n\nThis program is free software: 	you can redistribute it and/or modify it under the terms of the
+		GNU General Public License as published by the Free Software Foundation, either version 3 of the License,
+		or at your option) any later version.
+		\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+		the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public
+		License for more details.
+		\n\n You should have received a copy of the GNU General Public License along with this program.
+		If not, see <http://www.gnu.org/licenses/>
+	]]></string>
+	
+	<string name="menu_item_datasources">Datenquellen</string>
+	<string name="menu_item_plugins">Plug-Ins</string>
+	<string name="menu_item_list">Marker-Liste</string>
+	<string name="menu_item_map">Karte</string>
+	<string name="menu_item_range">Reichweite</string>
+	<string name="menu_item_search">Suche</string>
+	<string name="menu_item_info">Info</string>
+	<string name="menu_item_license">Lizenz</string>
+	
+	<string name="connection_error_dialog">Es tut uns leid, Verbindungsfehler ist aufgetreten! \nBitte kontrollieren Sie ob eine Verbindung zum Internet besteht.</string>
+	<string name="connection_error_dialog_button1">Erneut Versuchen</string>
+	<string name="connection_error_dialog_button2">Einstellungen</string>
+	<string name="connection_error_dialog_button3">Verlassen</string>
+	
+	<string name="connection_GPS_dialog_text">Die GPS-Position kann nicht aktualisiert werden… \nFalls Sie fortfahren möchten kann es sein
+		\ndass sich die Informationen nicht am richtigen Platz befinden.</string>
+	<string name="connection_GPS_dialog_button1">Fortfahren</string>
+	<string name="connection_GPS_dialog_button2">Schließen</string>
+	
+	<string name="no_website_available">Es tut uns leid, es stehen keine weiteren \nInformationen zur Verfügung.</string>
+	
+	<string name="license_title">Lizenz</string>
+	<string name="close_button">Schließen</string>
+	<string name="general_info_title">Allgemeine Informationen</string>
+	
+	<string name="general_info_text">GPS-Info: </string>
+	<string name="longitude">Längengrad: </string>
+	<string name="latitude">Breitengrad: </string>
+	<string name="altitude">Meereshöhe: </string>
+	<string name="speed">Geschwindigkeit: </string>
+	<string name="accuracy">Genauigkeit: </string>
+	<string name="gps_last_fix">Letzte GPS-Position:</string>
+	
+	<string name="map_menu_normal_mode">Karte</string>
+	<string name="map_menu_satellite_mode">Satellit</string>
+	<string name="map_menu_cam_mode">Kamera</string>
+	<string name="map_my_location">Mein Standort</string>
+	
+	<string name="map_current_location_click">Dein Standort</string>
+	
+	<string name="data_source_change_wikipedia">Wikipedia wurde als Datenquelle gewählt</string>
+	<string name="data_source_change_twitter">Twitter wurde als Datenquelle gewählt</string>
+	<string name="data_source_change_osm">OpenStreetMap wurde als Datenquelle gewählt</string>
+	
+	<string name="search_failed_notification">Keine Such-Ergebnisse </string>
+	<string name="source_openstreetmap">Bahnhöfe in der Umgebung</string>
+	
+	<string name="search_active_1">Suche in der Datenquelle</string>
+	<string name="search_active_2">. Hier klicken um die Suche zu Beenden</string>
+	<string name="WIKIPEDIA">Wikipedia</string>
+	<string name="MIXARE">Mixare</string>
+	<string name="CIRCLE_MARKER">Kreise</string>
+	<string name="IMAGE_MARKER">Bilder</string>
+	<string name="NAVIGATION_MARKER">Pfeile</string>
+	<string name="OSM">OpenStreetMap</string>
+	<string name="PANORAMIO">Panoramio</string>
+	<string name="TWITTER">Twitter</string>
+	<string name="add_osm_menu">OpenStreetMap-URL hinzufügen</string>
+	<string name="add_datasource">Datenquelle hinzufügen</string>
+	<string name="add_random">Um zufällige Entfernung ergänzen</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="dataSourcesStatusText">Datenquellen</string>
+	<string name="data_source_add">Datenquelle hinzufügen</string>
+	<string name="data_source_delete">Datenquelle löschen</string>
+	<string name="data_source_delete_err">Diese Datenquelle kann nicht gelöscht werden</string>
+	<string name="data_source_edit">Datenquelle ändern</string>
+	<string name="data_source_edit_err">Diese Datenquelle kann nicht geändert werden</string>
+	<string name="datasource_list">Datenquellen</string>
+	<string name="download_error">Fehler beim Herunterladen</string>
+	<string name="download_received">Daten erhalten von</string>
+	<string name="general_error_dialog">Mixare hatte ein Problem. Bitte melde diesen Fehler.</string>
+	<string name="deselect_all">Alle abwählen</string>
+	<string name="gps_error_dialog">GPS-Fehler</string>
+	<string name="launch_plugins">Plug-Ins starten?</string>
+	<string name="insert_osm_url">OpenStreetMap-URL eingeben</string>
+	<string name="list_view_no_plugins_available">Keine Plug-Ins installiert</string>
+	<string name="list_view_search_hint">Suche</string>
+	<string name="list_view_search_no_result">Keine Such-Ergebnisse gefunden</string>
+	<string name="location_not_found">Position nicht gefunden, stelle sicher, dass GPS oder W-LAN-Lokalisierung in den Einstellungen aktiviert ist</string>
+	<string name="list_view_total_markers">Marker insgesamt:</string>
+	<string name="map_menu_map_osm">OpenStreetMap</string>
+	<string name="map_toggle_path_off">Pfad verbergen</string>
+	<string name="map_toggle_path_on">Pfad zeigen</string>
+	<string name="marker">Marker</string>
+	<string name="mix_list_view">Marker-Liste</string>
+	<string name="no">Nein</string>
+	<string name="none">Keine</string>
+	<string name="osm_max_object_menu">Maximale Anzahl POI pro URL</string>
+	<string name="plugin_list">Plug-Ins</string>
+	<string name="positionStatusText">(%1$s, %2$.0f) %3$s: %4$.4f, %5$.4f, %6$.0fm</string>
+	<string name="select_all">Alle auswählen</string>
+	<string name="select_plugin">Neue Plug-Ins finden</string>
+	<string name="sensorsStatusText">Sensor-Status</string>
+	<string name="yes">Ja</string>
+	<string name="set_osm_max_object">Maximale Anzahl von POIs pro URL</string>
+	<string name="truncate">GPS-Position verkürzen</string>
+	<string name="remember_this_decision">Diese Entscheidung merken</string>
+	<string name="reload_plugins">Plug-Ins neu laden</string>
+	<string name="refreshing">Aktualisieren</string>
+	<string name="unsupportet_hardware_dialog">Mixare hatte ein Problem dabei, passende Sensoren zu finden. Stelle sicher, dass Dein Gerät die notwendigen Sensoren hat.</string>
+	<string name="problem_detected">Problem festgestellt</string>
+	<string name="list_view_marker_in_section">Marker: %1$d</string>
+	<string name="plugin_message">Einige Plug-Ins haben sich verändert, möchtest Du die Liste der Plug-Ins ansehen?</string>
+	<string name="plugins_changed">Die Aktivierung von Plug-Ins hat sich geändert. Mixare muss die geänderten Plug-Ins neu starten. Möchtest Du das jetzt tun?</string>
+	<string name="menu_item_test_augmentedview">RotationVektorDemo</string>
+	<string name="menu_item_route">Route zu…</string>
+	<string name="dataSourcesStatusPlaceholder" tools:ignore="TypographyFractions">Datenquellen: (5 min) 3/4</string>
+	<string name="destinationStatusTextPlaceholder">destinationStatusPlaceholder</string>
+	<string name="select_destination">Ziel auswählen</string>
+	<string name="sensorsStatusTextPlaceholder">Sensoren: Probleme mit Vektor-Sensor</string>
+	<string name="marker_action_start_routing">Navigation starten</string>
+	<string name="marker_action_show_on_map">Auf Karte anzeigen</string>
+	<string name="marker_action_set_as_location">Als Standort wählen</string>
+	<string name="marker_action_set_as_destination">Als Ziel wählen</string>
+	<string name="marker_action_show_details">Details anzeigen</string>
+	<string name="marker_action_show_website">Website anzeigen</string>
+	<string name="marker_action_start_routing_externally">Navigation extern starten</string>
+	<string name="more_actions">Mehr Aktionen</string>
+	<string name="marker_action_show_image">Bild anzeigen</string>
+	<string name="marker_action_show_website_externally">Website extern anzeigen</string>
+
+</resources>

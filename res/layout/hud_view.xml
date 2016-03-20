@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hudView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/positionStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/positionStatusProgress"
+        android:layout_gravity="right"
+        android:layout_toLeftOf="@+id/positionStatusProgress"
+        android:layout_toStartOf="@+id/positionStatusProgress"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff0000" />
+
+    <ProgressBar
+        android:id="@+id/positionStatusProgress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/positionStatusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/positionStatusProgress"
+        android:contentDescription="@string/problem_detected"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/dataSourcesStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/positionStatusText"
+        android:layout_gravity="right"
+        android:layout_toLeftOf="@+id/positionStatusProgress"
+        android:layout_toStartOf="@+id/positionStatusProgress"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:text="@string/dataSourcesStatusPlaceholder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff0000" />
+
+    <ProgressBar
+        android:id="@+id/dataSourcesStatusProgress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dataSourcesStatusText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/dataSourcesStatusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dataSourcesStatusText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:contentDescription="@string/problem_detected"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/sensorsStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataSourcesStatusText"
+        android:layout_gravity="right"
+        android:layout_toLeftOf="@+id/sensorsStatusProgress"
+        android:layout_toStartOf="@+id/sensorsStatusProgress"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:text="@string/sensorsStatusTextPlaceholder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff0000" />
+
+    <ProgressBar
+        android:id="@+id/sensorsStatusProgress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sensorsStatusText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/sensorsStatusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sensorsStatusText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/problem_detected"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/destinationWrapper">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destinationStatusTextPlaceholder"
+            android:id="@+id/destinationStatusText"
+            android:layout_gravity="left|bottom"
+            android:padding="5dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:minWidth="3000dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="0dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/rangeBarWrapper">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rangeBar"
+            android:progress="65"
+            android:max="100"
+            android:visibility="invisible"
+            android:layout_gravity="bottom" />
+
+    </FrameLayout>
+</RelativeLayout>

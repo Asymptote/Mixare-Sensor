@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mixare</string>
+    <string name="search_hint">Search Location</string>
+    
+    <string name="N">N</string>
+    <string name="NE">NE</string>
+    <string name="E">E</string>
+    <string name="SE">SE</string>
+    <string name="S">S</string>
+    <string name="SW">SW</string>
+    <string name="W">W</string>
+    <string name="NW">NW</string>
+    
+    <string name="OSM">OpenStreetMap</string>
+    <string name="MIXARE">Mixare</string>
+    <string name="TWITTER">Twitter</string>
+    <string name="PANORAMIO">Panoramio</string>
+    <string name="WIKIPEDIA">Wikipedia</string>
+    <string name="ARENA">Arena</string>
+    
+    <string name="CIRCLE_MARKER">Circles</string>
+    <string name="NAVIGATION_MARKER">Arrows</string>
+    <string name="IMAGE_MARKER">Images</string>
+    
+    <string name="empty_list">Sorry, \nThere is no location information \navailable within this radius.\nPlease try to search in a wider range.</string>
+	<string name="option_not_available">Sorry, We are working on it&#8230; \nThis option will be available soon!</string>
+
+	<string name="license">Copyright &#169; 2010- Peer internet solutions 
+		\n\nThis program is free software: 	you can redistribute it and/or modify it under the terms of the 
+		GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+		or at your option) any later version. 
+		\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+		the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public 
+		License for more details. 
+		\n\n You should have received a copy of the GNU General Public License along with this program. 
+		If not, see &lt;http://www.gnu.org/licenses/&gt;
+	</string>
+	
+	<string name="launch_plugins">Launch plugins?</string>
+	<string name="plugin_message">Some plugins have changed, do you want to see the List of Plugins?</string>
+	<string name="remember_this_decision">Remember this decision</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+		
+	<string name="menu_item_datasources">Data Sources</string>
+	<string name="menu_item_plugins">Plugins</string>
+	<string name="menu_item_list">Marker List</string>
+	<string name="menu_item_map">Map</string>
+	<string name="menu_item_range">Range</string>
+	<string name="menu_item_search">Search</string>
+	<string name="menu_item_info">Info</string>
+	<string name="menu_item_license">License</string>
+
+	<string name="cancel">Cancel</string>
+
+	<string name="data_source_edit_err">This data source cannot be edited.</string>
+	<string name="data_source_delete_err">This data source cannot be deleted.</string>
+
+	<string name="connection_error_dialog">Sorry, a connection Error occurred! \nPlease check if you are connected to the Internet.</string>
+	<string name="gps_error_dialog">GPS ERROR</string>
+	<string name="unsupportet_hardware_dialog">Mixare had a problem with finding the matching sensors. Make sure your phone has the needed sensors.</string>
+	<string name="general_error_dialog">Mixare had a problem. Please report this error.</string>
+	<string name="connection_error_dialog_button1">Retry</string>
+	<string name="connection_error_dialog_button2">Open Settings</string>
+	<string name="connection_error_dialog_button3">Close App</string>
+
+	<string name="connection_GPS_dialog_text">The GPS location can not be updated&#8230; \nIf you continue it could be that the Information 
+		\nwill not be displayed in the right place.</string>
+	<string name="connection_GPS_dialog_button1">Continue</string>
+	<string name="connection_GPS_dialog_button2">Close</string>
+
+	<string name="no_website_available">Sorry, there is no further \ninformation available.</string>
+
+	<string name="license_title">License</string>
+	<string name="close_button">Close</string>
+	<string name="general_info_title">General Information</string>
+
+	<string name="general_info_text">GPS info: </string>
+	<string name="longitude">Longitude: </string>
+	<string name="latitude">Latitude: </string>
+	<string name="altitude">Altitude: </string>
+	<string name="speed">Speed: </string>
+	<string name="accuracy">Accuracy: </string>
+	<string name="gps_last_fix">Last GPS fix: </string>
+
+	<string name="map_menu_normal_mode">Map</string>
+	<string name="map_menu_satellite_mode">Satellite</string>
+	<string name="map_menu_map_osm">OpenStreetMap</string>
+	<string name="map_menu_cam_mode">Camera</string>
+	<string name="map_my_location">My Location</string>
+	<string name="map_toggle_path_on">Show Path</string>
+	<string name="map_toggle_path_off">Hide Path</string>
+	
+	<string name="map_current_location_click">Your current location</string>
+
+	<string name="data_source_add">Add data source</string>
+	<string name="data_source_edit">Edit data source</string>
+	<string name="data_source_delete">Delete data source</string>
+	<string name="data_source_change_wikipedia">Changed to Wikipedia as data source</string>
+	<string name="data_source_change_twitter">Changed to Twitter as data source</string>
+	<string name="data_source_change_osm">Changed to OpenStreetMap as data source</string>
+
+	<string name="search_failed_notification">No search results</string>
+	<string name="source_openstreetmap">Stations around</string>
+
+	<string name="search_active_1">Search on data source</string>
+	<string name="search_active_2">. Touch to terminate search</string>
+	<string name="download_error">Error while downloading</string>
+	<string name="download_received">Received data from</string>
+
+	<string name="add_osm_menu">Add OpenStreetMap URL</string>
+	<string name="insert_osm_url">Insert OpenStreetMap URL</string>
+	<string name="osm_max_object_menu">Set max POI per URL</string>
+	<string name="set_osm_max_object">Maximum POIs per URL</string>
+	<string name="location_not_found">Location not found, make sure you enabled Wifi location or GPS in the settings.</string>
+	<string name="refreshing">Refreshing</string>
+	<string name="select_plugin">Find new Plugins</string>
+
+	<string name="plugins_changed">Activation of Plugins changed. Mixare has to restart to change plugins. Would you like to do that now?</string>
+	<string name="select_all">Select all</string>
+	<string name="deselect_all">Deselect all</string>
+	<string name="reload_plugins">Reload Plugins</string>
+	
+	<string name="bootstrap1">Splashscreen</string>
+	<string name="bootstrap2">Bootstrap</string>
+	<string name="marker">Marker</string>
+	<string name="dataselector">Dataselector</string>
+	<string name="datahandler">Datahandler</string>
+	
+	<string name="list_view_total_markers">Total markers: </string>
+	<string name="list_view_marker_in_section">Markers: %1$d</string>
+	<string name="list_view_search_no_result">No result found</string>
+	<string name="list_view_no_plugins_available">No plugins installed</string>
+	<string name="list_view_search_hint">Search</string>
+	
+	<string name="add_datasource">Add Datasource</string>
+	<string name="datasource_list">Datasources</string>
+	<string name="plugin_list">Plugins</string>
+	<string name="mix_list_view">Markerlist</string>
+	
+	<string name="list_view_section" translatable="false">list_view_section</string>
+	<string name="list_view_entry" translatable="false">list_view_entry</string>
+	<string name="list_view_webview_id" translatable="false">list_view_webview_id</string>
+	
+	<string name="none">None</string>
+	<string name="add_random">Add Random Distance</string>
+	<string name="truncate">Truncate GPS location</string>
+	<string name="problem_detected">problem detected</string>
+	<string name="positionStatusText">(%1$s, %2$.0f) %3$s: %4$.4f, %5$.4f, %6$.0fm</string>
+	<string name="dataSourcesStatusText">Data Sources </string>
+	<string name="sensorsStatusText">Sensor status</string>
+	<string name="pref_rangeLevel" translatable="false">rangeLevel</string>
+	<string name="drawer_open" />
+	<string name="drawer_close" />
+	<string name="menu_item_test_augmentedview">RotationVektorDemo</string>
+	<string name="menu_item_route">Route To…</string>
+	<string name="dataSourcesStatusPlaceholder" tools:ignore="TypographyFractions">Data Sources: (5 min) 3/4</string>
+	<string name="sensorsStatusTextPlaceholder">Sensors: Problems with vector sensor</string>
+	<string name="destinationStatusTextPlaceholder">destinationStatusPlaceholder</string>
+	<string name="select_destination">Select Destination</string>
+	<string name="distance_format">%1$.0fm</string>
+	<string name="marker_action_start_routing">Start routing</string>
+	<string name="marker_action_show_on_map">Show on map</string>
+	<string name="marker_action_set_as_location">Set as location</string>
+	<string name="marker_action_set_as_destination">Set as destination</string>
+	<string name="marker_action_show_details">Show details</string>
+	<string name="marker_action_show_image">Show image</string>
+	<string name="marker_action_show_website">Show website</string>
+	<string name="marker_action_show_website_externally">Show website externally</string>
+	<string name="marker_action_start_routing_externally">Start routing externally</string>
+	<string name="more_actions">More actions</string>
+</resources>

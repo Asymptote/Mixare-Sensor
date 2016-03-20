@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="datasourcetypelist">
+	    <item>@string/WIKIPEDIA</item>
+	    <item>@string/TWITTER</item>
+		<item>@string/OSM</item>
+	    <item>@string/MIXARE</item>
+		<item>@string/ARENA</item>
+		<item>@string/PANORAMIO</item>
+	</string-array>
+	<string-array name="displaytypelist">
+		<item>@string/CIRCLE_MARKER</item>
+		<item>@string/NAVIGATION_MARKER</item>
+		<item>@string/IMAGE_MARKER</item>
+	</string-array>
+	<string-array name="blurgps">
+	    <item>@string/none</item>
+	    <item>@string/add_random</item>
+	    <item>@string/truncate</item>
+	</string-array>
+    <string-array name="menu_item_titles">
+		<item>@string/menu_item_route</item>
+		<item>@string/menu_item_map</item>
+		<item>@string/menu_item_list</item>
+        <item>@string/menu_item_range</item>
+        <item>@string/menu_item_search</item>
+        <item>@string/menu_item_datasources</item>
+        <item>@string/menu_item_plugins</item>
+        <item>@string/menu_item_test_augmentedview</item>
+        <item>@string/menu_item_license</item>
+        <item>@string/menu_item_info</item>
+    </string-array>
+    <array name="menu_item_icons">
+        <item>@android:drawable/ic_menu_directions</item>
+        <item>@android:drawable/ic_menu_mapmode</item>
+        <item>@android:drawable/ic_menu_view</item>
+        <item>@android:drawable/ic_menu_zoom</item>
+        <item>@android:drawable/ic_menu_search</item>
+        <item>@drawable/icon_datasource</item>
+        <item>@drawable/icon_datasource</item>
+        <item>@drawable/icon_datasource</item>
+        <item>@android:drawable/ic_menu_share</item>
+        <item>@android:drawable/ic_menu_info_details</item>
+    </array>
+</resources>

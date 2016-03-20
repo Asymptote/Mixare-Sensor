@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuitem_show_on_map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="@string/marker_action_show_on_map"
+        />
+    <item android:id="@+id/menuitem_set_as_location"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/marker_action_set_as_location"
+        />
+    <item android:id="@+id/menuitem_set_as_destination"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/marker_action_set_as_destination"
+        />
+    <item android:id="@+id/menuitem_show_details"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/marker_action_show_details"
+        />
+    <item android:id="@+id/menuitem_show_image"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/marker_action_show_image"
+        />
+    <item android:id="@+id/menuitem_show_website"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="@string/marker_action_show_website"
+        />
+    <item android:id="@+id/menuitem_show_website_external"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="@string/marker_action_show_website_externally"
+        />
+    <item android:id="@+id/menuitem_start_routing"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/marker_action_start_routing"
+        />
+    <item android:id="@+id/menuitem_start_routing_external"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/marker_action_start_routing_externally"
+        />
+</menu>
